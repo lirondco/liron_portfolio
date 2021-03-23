@@ -7,7 +7,7 @@
 
   .rotating_message {
     font-size: 42pt;
-    font-family: "Varela Round", "Almarai", "Long Cang", sans-serif;
+    font-family: "Varela Round", "Almarai", sans-serif;
     text-shadow: 0 1px 0 blue, 0 2px 0 red, 0 3px 0 blue, 0 4px 0 red,
       0 20px 30px rgba(0, 0, 0, 0);
   }
@@ -54,7 +54,7 @@
 
   .rotating_message {
     font-size: 32pt;
-    font-family: "Varela Round", "Almarai", "Long Cang", sans-serif;
+    font-family: "Varela Round", "Almarai", sans-serif;
     text-shadow: 0 1px 0 blue, 0 2px 0 red, 0 3px 0 blue, 0 4px 0 red,
       0 20px 30px rgba(0, 0, 0, 0);
   }

@@ -41,7 +41,7 @@ export default function HomePageHE() {
         </p>
       </div>
       <div className='home_links'>
-        <Link to='/projects'>קראו על הפרוייקטים שלי</Link>
+        <Link to='/projects'>קראו על הפרויקטים שלי</Link>
         <Link to='/contact'>דברו איתי</Link>
       </div>
     </section>

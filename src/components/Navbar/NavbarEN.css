@@ -13,11 +13,22 @@
     padding-right: 20px;
   }
 
+  .social_logos {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .social_logos img {
+    width: 40px;
+    margin-right: 10px;
+  }
+
   
   hr {
     border: none;
-    background-color: #ccc;
-    color: #ccc;
+    background-color: #ffecdb;
+    color: #ffecdb;
     height: 1px;
   }
 
@@ -76,6 +87,18 @@
     background-color: #372a6a;
     overflow-x: hidden;
     text-align: center;
+  }
+
+  .social_logos {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .social_logos img {
+    width: 40px;
+    margin-right: 10px;
   }
 
   hr {

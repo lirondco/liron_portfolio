@@ -1,4 +1,4 @@
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 541px) {
   .nav_EN {
     height: 100%;
     width: 250px;
@@ -57,7 +57,7 @@
   }
 
   .nav_EN ul li button {
-    color: #ffecdb;
+    color: #00ff7f;
     font-size: 18pt;
     text-decoration: none;
     border: none;
@@ -77,7 +77,7 @@
   }
 }
 
-@media only screen and (max-width: 499px) {
+@media only screen and (max-width: 540px) {
   .nav_EN {
     width: 100%;
     position: fixed;
@@ -138,7 +138,7 @@
   }
 
   .nav_EN ul li button {
-    color: #ffecdb;
+    color: #00ff7f;
     font-size: 14pt;
     text-decoration: none;
     border: none;

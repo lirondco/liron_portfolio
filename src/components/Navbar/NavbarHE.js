@@ -39,7 +39,7 @@ export default function NavbarHE(props) {
                 צור קשר
             </NavLink>
         </li>
-        <li key='ivrit_HE'>
+        <li key='english_HE'>
             <button type='button' onClick={props.handleChangeLang} lang='EN' dir='ltr'>
                 English
             </button>

@@ -1,0 +1,138 @@
+@media only screen and (min-width: 500px) {
+    .nav_HE {
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      background-color: #372a6a;
+      overflow-x: hidden;
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    hr {
+      border: none;
+      background-color: #ccc;
+      color: #ccc;
+      height: 1px;
+    }
+  
+    .nav_HE h4 a {
+      color: #ffecdb;
+      text-decoration: none;
+      font-family: 'Varela Round', sans-serif;
+      font-size: 24pt;
+    }
+  
+    .nav_HE ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .nav_HE ul li {
+      margin-top: 10%;
+    }
+  
+    .nav_HE ul li a {
+      color: #ffecdb;
+      font-family: 'Varela Round', sans-serif;
+      font-size: 18pt;
+      text-decoration: none;
+      padding: 2%;
+    }
+  
+    .nav_HE ul li button {
+      color: #ffecdb;
+      font-size: 18pt;
+      text-decoration: none;
+      border: none;
+      background-color: inherit;
+      font-family: 'Ruda', sans-serif;
+      cursor: pointer;
+    }
+  
+    .nav_HE ul li a:hover, .nav_HE ul li button:hover {
+      text-decoration: underline 2px;
+    }
+  
+    .selected_nav_HE {
+      background-color: #d6304e;
+      color: #fffacd;
+      padding: 2%;
+    }
+  }
+  
+  @media only screen and (max-width: 499px) {
+    .nav_HE {
+      width: 100%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      background-color: #372a6a;
+      overflow-x: hidden;
+      text-align: center;
+    }
+  
+    hr {
+      border: none;
+      background-color: #ccc;
+      color: #ccc;
+      height: 1px;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  
+    .nav_HE h4 a {
+      color: #ffecdb;
+      text-decoration: none;
+      font-family: 'Ruda', sans-serif;
+      font-size: 24pt;
+    }
+  
+    .nav_HE ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      padding: 0;
+      justify-content: center;
+    }
+    
+    .nav_HE ul li {
+      padding: 2%;
+      white-space: nowrap;
+    }
+  
+    .nav_HE ul li a {
+      color: #ffecdb;
+      font-family: 'Ruda', sans-serif;
+      font-size: 14pt;
+      text-decoration: none;
+      padding: 2%;
+    }
+  
+    .nav_HE ul li button {
+      color: #ffecdb;
+      font-size: 14pt;
+      text-decoration: none;
+      border: none;
+      background-color: inherit;
+      font-family: 'Varela Round', sans-serif;
+      cursor:pointer;
+      padding: 2%;
+    }
+  
+    .nav_HE ul li a:hover, .nav_HE ul li button:hover {
+      text-decoration: underline 2px;
+    }
+  
+    .selected_nav_HE {
+      background-color: #d6304e;
+      color: #fffacd;
+      padding: 2%;
+    }
+  }
+  

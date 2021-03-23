@@ -1,5 +1,5 @@
 @media only screen and (min-width: 541px) {
-  .home_page_HE {
+  .section_HE {
     padding-top: 50px;
     padding-right: 320px;
     background-color: inherit;
@@ -23,14 +23,14 @@
     font-size: 12pt;
   }
 
-  .home_page_HE .home_links {
+  .section_HE .home_links {
     font-size: 14pt;
     font-family: 'Varela Round', sans-serif;
     display: flex;
     flex-direction: row;
   }
 
-  .home_page_HE .home_links a {
+  .section_HE .home_links a {
     text-decoration: none;
     background-color: #d6304e;
     color: #fffacd;
@@ -40,14 +40,14 @@
     border-radius: 50px;
   }
 
-  .home_page_HE .home_links a:hover {
+  .section_HE .home_links a:hover {
     background-color: #372a6a;
     color: #ffecdb;
   }
 }
 
 @media only screen and (max-width: 540px) {
-  .home_page_HE {
+  .section_HE {
     padding-top: 210px;
     margin: 0 10px 0 10px;
   }
@@ -67,14 +67,14 @@
   .smaller {
     font-size: 12pt;
   }
-  .home_page_HE .home_links {
+  .section_HE .home_links {
     font-size: 14pt;
     font-family: 'Varela Round', sans-serif;
     display: flex;
     flex-direction: row;
   }
 
-  .home_page_HE .home_links a {
+  .section_HE .home_links a {
     text-decoration: none;
     background-color: #d6304e;
     color: #fffacd;
@@ -85,7 +85,7 @@
     text-align: center;
   }
 
-  .home_page_HE .home_links a:hover {
+  .section_HE .home_links a:hover {
     background-color: #372a6a;
     color: #ffecdb;
   }

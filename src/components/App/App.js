@@ -5,6 +5,7 @@ import NavbarHE from '../Navbar/NavbarHE'
 import { Route, Switch } from 'react-router'
 import HomePageEN from '../HomePage/HomePageEN'
 import HomePageHE from '../HomePage/HomePageHE'
+import ProjectsEN from '../Projects/ProjectsEN'
 
 export default function App() {
     const [language, setLanguage] = useState(getUserLocale())
@@ -27,7 +28,8 @@ export default function App() {
     const renderEnglish = () => {
         return (
             <Switch>
-                <Route strict to='/' component={HomePageEN} />
+                <Route exact path='/' component={HomePageEN} />
+                <Route path='/projects' component={ProjectsEN} />
             </Switch>
         )
     }
@@ -35,7 +37,7 @@ export default function App() {
     const renderHebrew = () => {
         return (
             <Switch>
-                <Route strict to='/' component={HomePageHE} />
+                <Route exact path='/' component={HomePageHE} />
             </Switch>
         )
     }

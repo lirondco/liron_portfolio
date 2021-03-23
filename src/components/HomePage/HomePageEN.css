@@ -1,5 +1,5 @@
 @media only screen and (min-width: 541px) {
-  .home_page_EN {
+  .section_EN {
     padding-top: 50px;
     padding-left: 320px;
     background-color: inherit;
@@ -23,14 +23,14 @@
     font-size: 10pt;
   }
 
-  .home_page_EN .home_links {
+  .section_EN .home_links {
     font-size: 14pt;
     font-family: "Ruda", sans-serif;
     display: flex;
     flex-direction: row;
   }
 
-  .home_page_EN .home_links a {
+  .section_EN .home_links a {
     text-decoration: none;
     background-color: #d6304e;
     color: #fffacd;
@@ -40,14 +40,14 @@
     border-radius: 50px;
   }
 
-  .home_page_EN .home_links a:hover {
+  .section_EN .home_links a:hover {
     background-color: #372a6a;
     color: #ffecdb;
   }
 }
 
 @media only screen and (max-width: 540px) {
-  .home_page_EN {
+  .section_EN {
     padding-top: 210px;
     margin: 0 10px 0 10px;
   }
@@ -68,7 +68,7 @@
     font-size: 10pt;
   }
 
-  .home_page_EN .home_links {
+  .section_EN .home_links {
     font-size: 14pt;
     font-family: "Ruda", sans-serif;
     display: flex;
@@ -76,7 +76,7 @@
     align-items: flex-start;
   }
 
-  .home_page_EN .home_links a {
+  .section_EN .home_links a {
     text-decoration: none;
     background-color: #d6304e;
     text-align: center;
@@ -87,7 +87,7 @@
     border-radius: 50px;
   }
 
-  .home_page_EN .home_links a:hover {
+  .section_EN .home_links a:hover {
     background-color: #372a6a;
     color: #ffecdb;
   }

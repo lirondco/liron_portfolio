@@ -41,9 +41,9 @@ export default function HomePageEN() {
       <Link to='/projects'>
         View my projects
       </Link>
-      <Link to='/contact'>
+      <a href='mailto:liron.decastro@gmail.com'>
         Talk to me
-      </Link>
+      </a>
       </div>
     </section>
   );

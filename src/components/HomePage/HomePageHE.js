@@ -42,7 +42,7 @@ export default function HomePageHE() {
       </div>
       <div className='home_links'>
         <Link to='/projects'>קראו על הפרויקטים שלי</Link>
-        <Link to='/contact'>דברו איתי</Link>
+        <a href='mailto:liron.decastro@gmail.com'>דברו איתי</a>
       </div>
     </section>
   );

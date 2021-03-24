@@ -1,13 +1,13 @@
 import React from 'react';
 import Maslool from './screenshots/maslool.png';
-import Maslool_Hover_EN from './screenshots/hover_en_maslool.png';
+import Maslool_Hover_HE from './screenshots/hover_he_maslool.png';
 import SpacedRep from './screenshots/spaced_rep.png';
-import SpacedRep_Hover_EN from './screenshots/spaced_rep_hover_en.png';
+import SpacedRep_Hover_HE from './screenshots/spaced_rep_hover_he.png';
 import ForgetMeNot from './screenshots/forgetmenot.png';
-import ForgetMeNot_Hover_EN from './screenshots/forgetmenot_hover_en.png';
-import './ProjectsEN.css';
+import ForgetMeNot_Hover_HE from './screenshots/forgetmenot_hover_he.png';
+import './ProjectsHE.css';
 
-export default function ProjectsEN() {
+export default function ProjectsHE() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const messages = [
     'PROJECTS',
@@ -21,12 +21,12 @@ export default function ProjectsEN() {
 
   const projects = [
     {
-      name: 'Maslool',
+      name: 'מסלול',
       image: Maslool,
-      hover: Maslool_Hover_EN,
-      alt: 'maslool screenshot that can be clicked to go to webpage',
+      hover: Maslool_Hover_HE,
+      alt: 'צילום מסך של האתר מסלול',
       description:
-        'Maslool is a forum for outdoor enthusiasts where users can look up trails, provide ratings, and post comments. It also has a full moderator role functionality.',
+        'מסלול הוא אתר פורום לאוהבי הטבע שמאפשר למשתמשים לחפש טיולים וגם להוסיף רייטינג ותגובות. אפשר גם להוסיף אדמינים עם תפקידים מיוחדים משלהם לאתר.',
       website: 'https://maslool.lirondc.com',
       repo: 'https://github.com/lirondco/maslool-client',
       technologies: [
@@ -42,12 +42,12 @@ export default function ProjectsEN() {
       ],
     },
     {
-        name: 'Spaced Repetition',
+        name: 'שינון בסירוגין',
         image: SpacedRep,
-        hover: SpacedRep_Hover_EN,
-        alt: 'spaced repetition screenshot that can be clicked to go to webpage',
+        hover: SpacedRep_Hover_HE,
+        alt: 'צילום מסך של האתר למידת שפה העברית בעמצאות שיטת שינון בסירוגין',
         description:
-          'Spaced repetition is a language learning strategy in which the easier words that the user always gets correctly appear less frequently than words that the user finds more difficult. This project demonstrates this strategy using simple Hebrew words.',
+          'שינון בסירוגין היא שיטת למידה שמשלבת הגדלת מרווחי זמן בין ביקורת עוקבת לבין חומר שנלמד כדי לנצל את השפעת הפיסוק הפסיכולוגית.  פרויקט זה מדגים שיטה זו באמצעות מילים פשוטות בעברית.',
         website: 'https://spacedrep.lirondc.com/',
         repo: 'https://github.com/lirondco/spaced-repetition/',
         technologies: [
@@ -64,12 +64,12 @@ export default function ProjectsEN() {
         ],
       },
       {
-        name: 'ForgetMeNot',
+        name: 'פורגטמינאט (אל תשכח אותי)',
         image: ForgetMeNot,
-        hover: ForgetMeNot_Hover_EN,
-        alt: 'forget me not app screenshot that can be clicked to go to webpage',
+        hover: ForgetMeNot_Hover_HE,
+        alt: 'צילום מסך של האתר אל תשכח אותי שבאנגלית פורגט מי נאט',
         description:
-          'ForgetMeNot is an app that helps you remember things in an organized manner without the constraints of a deadline. Just list it, keep it, then bring it back up when you need it.',
+          'פורגטמינאט הוא אתר שיעזור לך לזכור דברים בצורה מסודרת ללא הגבלת זמן. תרשמו, תשמרו, ותוציאו רק אם צריך.',
         website: 'https://forgetmenot.lirondc.com',
         repo: 'https://github.com/lirondco/forgetmenot-client',
         technologies: [
@@ -101,9 +101,9 @@ export default function ProjectsEN() {
   }, [messages, messageIndex]);
 
   return (
-    <section id='projects_EN' className='section_EN'>
+    <section id='projects_HE' className='section_HE' lang='he' dir='rtl'>
       <div className='rotating_message'>{messages[messageIndex]}</div>
-      <ul className='projects_list_EN'>
+      <ul className='projects_list_HE'>
         {projects.map((project) => (
           <li key={project.name}>
             <a href={project.website} target='_blank' rel='noreferrer noopener'>
@@ -114,17 +114,17 @@ export default function ProjectsEN() {
                 onMouseOut={(e) => (e.currentTarget.src = project.image)}
               />
             </a>
-            <div className='project_list_content_EN'>
-              <h4 className='project_title_EN'>{project.name}</h4>
-              <ul className='tech_list_EN'>
+            <div className='project_list_content_HE'>
+              <h4 className='project_title_HE'>{project.name}</h4>
+              <ul className='tech_list_HE'>
                 {project.technologies.map((tech) => (
                   <li key='tech'>{tech}</li>
                 ))}
               </ul>
-              <p className='project_desc_EN'>{project.description}</p>
-              <div className='project_links_EN'>
-                <a href={project.website} target='_blank' rel='noreferrer noopener'>Visit Webpage</a>
-                <a href={project.repo} target='_blank' rel='noreferrer noopener'>Visit Repo</a>
+              <p className='project_desc_HE'>{project.description}</p>
+              <div className='project_links_HE'>
+                <a href={project.website} target='_blank' rel='noreferrer noopener'>כנסו לאתר</a>
+                <a href={project.repo} target='_blank' rel='noreferrer noopener'>כנסו לגיטהאב</a>
               </div>
             </div>
           </li>

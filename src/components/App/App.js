@@ -6,6 +6,7 @@ import { Route, Switch } from 'react-router'
 import HomePageEN from '../HomePage/HomePageEN'
 import HomePageHE from '../HomePage/HomePageHE'
 import ProjectsEN from '../Projects/ProjectsEN'
+import ProjectsHE from '../Projects/ProjectsHE'
 
 export default function App() {
     const [language, setLanguage] = useState(getUserLocale())
@@ -38,6 +39,7 @@ export default function App() {
         return (
             <Switch>
                 <Route exact path='/' component={HomePageHE} />
+                <Route path='/projects' component={ProjectsHE} />
             </Switch>
         )
     }

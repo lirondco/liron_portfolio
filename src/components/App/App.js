@@ -11,6 +11,8 @@ import AboutEN from '../About/AboutEN'
 import AboutHE from '../About/AboutHE'
 import ContactEN from '../Contact/ContactEN'
 import ContactHE from '../Contact/ContactHE'
+import FooterEN from '../Footer/FooterEN'
+import FooterHE from '../Footer/FooterHE'
 
 export default function App() {
     const [language, setLanguage] = useState(getUserLocale())
@@ -65,6 +67,11 @@ export default function App() {
             : renderHebrew()
             }
             </main>
+
+            {(language !== 'he-IL' && language !== 'he' )
+            ? <FooterEN />
+            : <FooterHE />
+            }
         </div>
     )
 }

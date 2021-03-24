@@ -1,0 +1,14 @@
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #faf8fb;
+    font-family: 'Roboto Slab', serif;
+    color: gray;
+}
+
+.footer_HE {
+    font-family: 'Assistant', sans-serif;
+}

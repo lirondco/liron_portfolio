@@ -9,6 +9,8 @@ import ProjectsEN from '../Projects/ProjectsEN'
 import ProjectsHE from '../Projects/ProjectsHE'
 import AboutEN from '../About/AboutEN'
 import AboutHE from '../About/AboutHE'
+import ContactEN from '../Contact/ContactEN'
+import ContactHE from '../Contact/ContactHE'
 
 export default function App() {
     const [language, setLanguage] = useState(getUserLocale())
@@ -34,6 +36,7 @@ export default function App() {
                 <Route exact path='/' component={HomePageEN} />
                 <Route path='/projects' component={ProjectsEN} />
                 <Route path='/about' component={AboutEN} />
+                <Route path='/contact' component={ContactEN} />
             </Switch>
         )
     }
@@ -44,6 +47,7 @@ export default function App() {
                 <Route exact path='/' component={HomePageHE} />
                 <Route path='/projects' component={ProjectsHE} />
                 <Route path='/about' component={AboutHE} />
+                <Route path='/contact' component={ContactHE} />
             </Switch>
         )
     }

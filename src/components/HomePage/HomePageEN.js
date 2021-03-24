@@ -25,6 +25,7 @@ export default function HomePageEN() {
     <section id='homepage_EN' className='section_EN' lang='en' dir='ltr'>
       <div className='rotating_message'>{messages[messageIndex]}</div>
       <div className='body_text_EN'>
+        <p>I'm Liron. That's /liːron/, not /laɪːron/. </p>
         <p>
           I'm a full stack web developer based in Southern California. <br /> I
           currently work with JavaScript, React.JS, jQuery, HTML5, CSS, PostgreSQL, and

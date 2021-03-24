@@ -31,7 +31,7 @@ export default function NavbarHE(props) {
         </li>
         <li key='about_HE'>
             <NavLink activeClassName='selected_nav_HE' to='/about'>
-                אודות
+                מי אני
             </NavLink>
         </li>
         <li key='contact_HE'>

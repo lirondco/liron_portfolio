@@ -31,7 +31,7 @@ export default function NavbarEN(props) {
         </li>
         <li key='about_EN'>
             <NavLink activeClassName='selected_nav_EN' to='/about'>
-                About
+                About Me
             </NavLink>
         </li>
         <li key='contact_EN'>

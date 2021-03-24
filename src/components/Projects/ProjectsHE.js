@@ -118,7 +118,7 @@ export default function ProjectsHE() {
               <h4 className='project_title_HE'>{project.name}</h4>
               <ul className='tech_list_HE'>
                 {project.technologies.map((tech) => (
-                  <li key='tech'>{tech}</li>
+                  <li key={tech+project.name}>{tech}</li>
                 ))}
               </ul>
               <p className='project_desc_HE'>{project.description}</p>

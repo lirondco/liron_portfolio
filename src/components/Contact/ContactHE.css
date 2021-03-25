@@ -1,14 +1,14 @@
 .contact_logos_HE {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
 }
 
 .contact_logos_HE img {
-    width: 50px;
-    margin-left: 5px;
+  width: 50px;
+  margin-left: 5px;
 }
 
 #contact_HE .body_text_HE {
-    text-align: justify;
+  text-align: justify;
 }

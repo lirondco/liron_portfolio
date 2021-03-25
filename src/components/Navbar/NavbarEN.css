@@ -24,7 +24,6 @@
     margin-right: 10px;
   }
 
-  
   hr {
     border: none;
     background-color: #ffecdb;
@@ -35,7 +34,7 @@
   .nav_EN h4 a {
     color: #ffecdb;
     text-decoration: none;
-    font-family: 'Ruda', sans-serif;
+    font-family: "Ruda", sans-serif;
     font-size: 24pt;
   }
 
@@ -43,14 +42,14 @@
     list-style: none;
     padding: 0;
   }
-  
+
   .nav_EN ul li {
     margin-top: 10%;
   }
 
   .nav_EN ul li a {
     color: #ffecdb;
-    font-family: 'Ruda', sans-serif;
+    font-family: "Ruda", sans-serif;
     font-size: 18pt;
     text-decoration: none;
     padding: 2%;
@@ -62,11 +61,12 @@
     text-decoration: none;
     border: none;
     background-color: inherit;
-    font-family: 'Varela Round', sans-serif;
-    cursor:pointer;
+    font-family: "Varela Round", sans-serif;
+    cursor: pointer;
   }
 
-  .nav_EN ul li a:hover, .nav_EN ul li button:hover {
+  .nav_EN ul li a:hover,
+  .nav_EN ul li button:hover {
     text-decoration: underline 2px;
   }
 
@@ -113,7 +113,7 @@
   .nav_EN h4 a {
     color: #ffecdb;
     text-decoration: none;
-    font-family: 'Ruda', sans-serif;
+    font-family: "Ruda", sans-serif;
     font-size: 24pt;
   }
 
@@ -124,7 +124,7 @@
     padding: 0;
     justify-content: center;
   }
-  
+
   .nav_EN ul li {
     padding: 2%;
     white-space: nowrap;
@@ -132,7 +132,7 @@
 
   .nav_EN ul li a {
     color: #ffecdb;
-    font-family: 'Ruda', sans-serif;
+    font-family: "Ruda", sans-serif;
     font-size: 14pt;
     text-decoration: none;
     padding: 2%;
@@ -144,11 +144,12 @@
     text-decoration: none;
     border: none;
     background-color: inherit;
-    font-family: 'Varela Round', sans-serif;
-    cursor:pointer;
+    font-family: "Varela Round", sans-serif;
+    cursor: pointer;
   }
 
-  .nav_EN ul li a:hover, .nav_EN ul li button:hover {
+  .nav_EN ul li a:hover,
+  .nav_EN ul li button:hover {
     text-decoration: underline 2px;
   }
 

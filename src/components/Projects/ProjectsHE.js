@@ -6,6 +6,7 @@ import SpacedRep_Hover_HE from './screenshots/spaced_rep_hover_he.png';
 import ForgetMeNot from './screenshots/forgetmenot.png';
 import ForgetMeNot_Hover_HE from './screenshots/forgetmenot_hover_he.png';
 import './ProjectsHE.css';
+import { Helmet } from 'react-helmet';
 
 export default function ProjectsHE() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -102,6 +103,13 @@ export default function ProjectsHE() {
 
   return (
     <section id='projects_HE' className='section_HE' lang='he' dir='rtl'>
+      <Helmet>
+        <title>לירון דה קסטרו - פרויקטים</title>
+        <meta
+          name="description"
+          content="בדף זה מפורטים כמה מהפרויקטים הבולטים של לירון דה קסטרו עד כה."
+        />
+      </Helmet>
       <div className='rotating_message'>{messages[messageIndex]}</div>
       <ul className='projects_list_HE'>
         {projects.map((project) => (

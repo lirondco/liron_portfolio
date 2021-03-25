@@ -15,17 +15,16 @@
 }
 
 @media only screen and (max-width: 540px) {
-    .about_content_EN {
-      font-family: "Roboto Slab", serif;
-      font-size: 14pt;
-      color: #05182a;
-      text-align: justify;
-    }
-  
-    .about_image_EN img {
-      margin-right: 30px;
-      float: left;
-      width: 30%;
-    }
+  .about_content_EN {
+    font-family: "Roboto Slab", serif;
+    font-size: 14pt;
+    color: #05182a;
+    text-align: justify;
   }
-  
+
+  .about_image_EN img {
+    margin-right: 30px;
+    float: left;
+    width: 30%;
+  }
+}

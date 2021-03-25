@@ -3,6 +3,7 @@ import LinkedIn from "./linkedinnormal.png";
 import Github from "./githubnormal.png";
 import Twitter from "./twitternormal.png";
 import Mail from "./emaillogo.png";
+import { Helmet } from "react-helmet";
 import "./ContactHE.css";
 
 export default function ContactHE() {
@@ -33,12 +34,21 @@ export default function ContactHE() {
 
   return (
     <section id="contact_HE" className="section_HE" lang="he" dir="rtl">
+      <Helmet>
+        <title>לירון דה קסטרו - צור קשר</title>
+        <meta
+          name="description"
+          content="תוכלו ליצור עם לירון דה קסטרו קשר באמצעות מייל, טוויטר, או לינקד-אין. תוכלו גם
+          לראות את הרפוסיטורים שלי בגיטהאב."
+        />
+      </Helmet>
       <div className="rotating_message">{messages[messageIndex]}</div>
       <div className="body_text_HE">
         <p>בואו נדבר! להלן פרטי ההתקשרות שלי.</p>
         <p>
           {" "}
-          תוכלו ליצור איתי קשר באמצעות מייל, טוויטר, או לינקד-אין. תוכלו גם לראות את הרפוסיטורים שלי בגיטהאב.
+          תוכלו ליצור איתי קשר באמצעות מייל, טוויטר, או לינקד-אין. תוכלו גם
+          לראות את הרפוסיטורים שלי בגיטהאב.
         </p>
       </div>
       <div className="contact_logos_HE">

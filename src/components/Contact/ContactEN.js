@@ -3,6 +3,7 @@ import LinkedIn from "./linkedinnormal.png";
 import Github from "./githubnormal.png";
 import Twitter from "./twitternormal.png";
 import Mail from "./emaillogo.png";
+import { Helmet } from "react-helmet";
 import "./ContactEN.css";
 
 export default function ContactEN() {
@@ -33,6 +34,14 @@ export default function ContactEN() {
 
   return (
     <section id="contact_EN" className="section_EN" lang="en" dir="ltr">
+      <Helmet>
+        <title>Liron de Castro - Contact</title>
+        <meta
+          name="description"
+          content="You can Liron de Castro by email, view my GitHub page, or contect with me
+          on LinkedIn and Twitter."
+        />
+      </Helmet>
       <div className="rotating_message">{messages[messageIndex]}</div>
       <div className="body_text_EN">
         <p>Let's talk! Below are my contact details.</p>

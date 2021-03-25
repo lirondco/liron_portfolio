@@ -1,14 +1,14 @@
 .contact_logos_EN {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
 }
 
 .contact_logos_EN img {
-    width: 50px;
-    margin-right: 5px;
+  width: 50px;
+  margin-right: 5px;
 }
 
 #contact_EN .body_text_EN {
-    text-align: justify;
+  text-align: justify;
 }

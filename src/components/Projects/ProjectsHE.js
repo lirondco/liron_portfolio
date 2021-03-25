@@ -121,7 +121,7 @@ export default function ProjectsHE() {
                   <li key={tech+project.name}>{tech}</li>
                 ))}
               </ul>
-              <p className='project_desc_HE'>{project.description}</p>
+              <p className='project_desc_HE'>{project.description} בעיות בטעינה? נא לבדוק את <a href='https://status.heroku.com/' target='_blank' rel='noreferrer noopener'>הסטטוס של הרוקו.</a></p>
               <div className='project_links_HE'>
                 <a href={project.website} target='_blank' rel='noreferrer noopener'>כנסו לאתר</a>
                 <a href={project.repo} target='_blank' rel='noreferrer noopener'>כנסו לגיטהאב</a>

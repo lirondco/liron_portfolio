@@ -39,6 +39,7 @@ export default function ProjectsEN() {
         'CSS',
         'Enzyme',
         'Jest',
+        'Heroku'
       ],
     },
     {
@@ -61,6 +62,7 @@ export default function ProjectsEN() {
           'Enzyme',
           'Jest',
           'Cypress',
+          'Heroku'
         ],
       },
       {
@@ -82,6 +84,7 @@ export default function ProjectsEN() {
           'CSS',
           'Enzyme',
           'Jest',
+          'Heroku'
         ],
       },
   ];
@@ -121,7 +124,7 @@ export default function ProjectsEN() {
                   <li key={tech+project.name}>{tech}</li>
                 ))}
               </ul>
-              <p className='project_desc_EN'>{project.description}</p>
+              <p className='project_desc_EN'>{project.description} Problems loading? Please check <a href='https://status.heroku.com/' target='_blank' rel='noreferrer noopener'>Heroku's status.</a></p>
               <div className='project_links_EN'>
                 <a href={project.website} target='_blank' rel='noreferrer noopener'>Visit Webpage</a>
                 <a href={project.repo} target='_blank' rel='noreferrer noopener'>Visit Repo</a>

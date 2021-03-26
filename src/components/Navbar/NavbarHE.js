@@ -26,7 +26,7 @@ export default function NavbarHE(props) {
       <ul className="nav_content_HE">
         <li key="projects_HE">
           <NavLink activeClassName="selected_nav_HE" to="/projects">
-            פרוייקטים
+            פרויקטים
           </NavLink>
         </li>
         <li key="about_HE">

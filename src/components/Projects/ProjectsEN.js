@@ -6,7 +6,7 @@ import SpacedRep_Hover_EN from "./screenshots/spaced_rep_hover_en.png";
 import ForgetMeNot from "./screenshots/forgetmenot.png";
 import ForgetMeNot_Hover_EN from "./screenshots/forgetmenot_hover_en.png";
 import "./ProjectsEN.css";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 export default function ProjectsEN() {
   // eslint-disable-next-line react-hooks/exhaustive-deps

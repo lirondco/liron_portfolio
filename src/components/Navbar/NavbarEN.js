@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import LinkedIn from "./linkedin.png";
 import Github from "./GitHub.png";
 import Twitter from "./twitter.png";
+import Email from "./email.png";
 import "./NavbarEN.css";
 
 export default function NavbarEN(props) {
@@ -20,6 +21,9 @@ export default function NavbarEN(props) {
         </a>
         <a href="https://twitter.com/lirondecastro">
           <img src={Twitter} alt="Twitter logo" />
+        </a>
+        <a href="mailto:liron.decastro@gmail.com">
+          <img src={Email} alt="Email logo" />
         </a>
       </div>
       <hr />

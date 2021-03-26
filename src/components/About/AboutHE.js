@@ -1,6 +1,6 @@
 import React from "react";
 import Portrait from "./photoplaceholder.png";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import "./AboutHE.css";
 
 export default function AboutHE() {
@@ -73,6 +73,11 @@ export default function AboutHE() {
             בזמן שאני לא עובדת אני נמצאת בחוץ מגלה את הטבע, הולכת לשום מקום בעיר
             חדשה שבחיים לא ביקרתי, מנסה לבשל מתכון חדש, או מנסה חוויה חדשה
             שמעולם לא חוויתי.
+          </p>
+          <p>
+            אתן יודעות מה אני הכי אוהבת? לעבוד בצוותים! אז בואו
+            <a href="mailto:liron.decastro@gmail.com">לשלוח לי מייל</a> והזמינו
+            אותי לעבוד אתכן!
           </p>
         </div>
       </div>

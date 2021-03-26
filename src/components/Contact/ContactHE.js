@@ -3,7 +3,7 @@ import LinkedIn from "./linkedinnormal.png";
 import Github from "./githubnormal.png";
 import Twitter from "./twitternormal.png";
 import Mail from "./emaillogo.png";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import "./ContactHE.css";
 
 export default function ContactHE() {

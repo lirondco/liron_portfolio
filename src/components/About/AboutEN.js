@@ -1,6 +1,6 @@
 import React from "react";
 import Portrait from "./photoplaceholder.png";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import "./AboutEN.css";
 
 export default function AboutEN() {
@@ -77,6 +77,12 @@ export default function AboutEN() {
             When I am not working, I can usually be found exploring nature,
             getting lost in a new city, trying out a new recipe, or trying out a
             new experience that I have not put my hands on.
+          </p>
+          <p>
+            You know what else I really, really like? Working in teams! If you
+            like what you see, why don't you{" "}
+            <a href="mailto:liron.decastro@gmail.com">send me an email</a> and
+            ask me to join your team?
           </p>
         </div>
       </div>

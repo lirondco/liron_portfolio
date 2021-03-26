@@ -43,6 +43,7 @@ export default function HomePageEN() {
           PostgreSQL, and Express. <br /> If what you need is not what I listed,
           still try asking me anyway. <br /> I also do maps and graphs.
         </p>
+        <p>Would you like me to be in your team? I love working in teams!</p>
         <p>
           I also love video games, the outdoors, cooking, and sometimes I try
           photography too! <br />{" "}

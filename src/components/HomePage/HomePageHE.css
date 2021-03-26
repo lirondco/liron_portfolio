@@ -25,7 +25,7 @@
 
   .section_HE .home_links {
     font-size: 14pt;
-    font-family: 'Varela Round', sans-serif;
+    font-family: "Varela Round", sans-serif;
     display: flex;
     flex-direction: row;
   }
@@ -48,8 +48,7 @@
 
 @media only screen and (max-width: 540px) {
   .section_HE {
-    padding-top: 210px;
-    margin: 0 10px 0 10px;
+    margin: 170px 10px 0 10px;
   }
 
   .rotating_message {
@@ -59,7 +58,7 @@
       0 20px 30px rgba(0, 0, 0, 0);
   }
   .body_text_HE {
-    font-family: 'Assistant', sans-serif;
+    font-family: "Assistant", sans-serif;
     font-size: 16pt;
     color: #05182a;
   }
@@ -69,7 +68,7 @@
   }
   .section_HE .home_links {
     font-size: 14pt;
-    font-family: 'Varela Round', sans-serif;
+    font-family: "Varela Round", sans-serif;
     display: flex;
     flex-direction: row;
   }

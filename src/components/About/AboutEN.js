@@ -1,7 +1,8 @@
 import React from "react";
-import Portrait from "./photoplaceholder.png";
+import Portrait from "./gamephoto.png";
 import { Helmet } from "react-helmet-async";
 import "./AboutEN.css";
+import { Link } from "react-router-dom";
 
 export default function AboutEN() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -46,7 +47,12 @@ export default function AboutEN() {
       <div className="rotating_message">{messages[messageIndex]}</div>
       <div className="about_content_EN">
         <div className="about_image_EN">
-          <img src={Portrait} alt="portrait of myself" />
+          <Link to="/shhhh">
+            <img
+              src={Portrait}
+              alt="cellphone playing snake that holds a secret"
+            />
+          </Link>
         </div>
         <div className="about_text_EN">
           <p>A page where I talk about myself? I will try my best!</p>

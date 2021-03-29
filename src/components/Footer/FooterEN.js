@@ -4,7 +4,7 @@ import "./Footer.css";
 export default function FooterEN() {
   return (
     <footer className="footer_EN">
-      © Liron de Castro, 2021. All rights reserved.
+      © Liron de Castro, 2021. All rights reserved. Find the secret.
     </footer>
   );
 }

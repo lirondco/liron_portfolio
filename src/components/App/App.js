@@ -13,6 +13,8 @@ import ContactEN from "../Contact/ContactEN";
 import ContactHE from "../Contact/ContactHE";
 import FooterEN from "../Footer/FooterEN";
 import FooterHE from "../Footer/FooterHE";
+import Secret from "../Secret/Secret";
+import Sod from "../Secret/Sod";
 
 export default function App() {
   const [language, setLanguage] = useState(getUserLocale());
@@ -33,6 +35,7 @@ export default function App() {
         <Route path="/projects" component={ProjectsEN} />
         <Route path="/about" component={AboutEN} />
         <Route path="/contact" component={ContactEN} />
+        <Route path="/shhhh" component={Secret} />
       </Switch>
     );
   };
@@ -44,6 +47,7 @@ export default function App() {
         <Route path="/projects" component={ProjectsHE} />
         <Route path="/about" component={AboutHE} />
         <Route path="/contact" component={ContactHE} />
+        <Route path="/shhhh" component={Sod} />
       </Switch>
     );
   };

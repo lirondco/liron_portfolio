@@ -12,3 +12,9 @@ footer {
 .footer_HE {
   font-family: "Assistant", sans-serif;
 }
+
+.secret {
+  text-decoration: none;
+  color: inherit;
+  color: slategray;
+}

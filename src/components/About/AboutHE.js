@@ -1,8 +1,7 @@
 import React from "react";
-import Portrait from "./gamephoto.png";
+import Portrait from "./portrait.png";
 import { Helmet } from "react-helmet-async";
 import "./AboutHE.css";
-import { Link } from "react-router-dom";
 
 export default function AboutHE() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -47,9 +46,7 @@ export default function AboutHE() {
       <div className="rotating_message">{messages[messageIndex]}</div>
       <div className="about_content_HE">
         <div className="about_image_HE">
-          <Link to="/shhhh">
-            <img src={Portrait} alt="cellphone playing snake that holds a secret" />
-          </Link>
+            <img src={Portrait} alt="a stylized portrait of myself" />
         </div>
         <div className="about_text_HE">
           <p>דף שבו אני כותבת על עצמי? אוי ואבוי אני אעשה כמיטב יכולתי!</p>

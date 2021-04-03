@@ -36,8 +36,8 @@ export default function AboutHE() {
         <meta
           name="description"
           content="שמי לירון דה קסטרו ואני מפתחת פול-סטאק שגרה בדרום קליפורניה. כרגע
-          אני מתמחה ביצירת וניהול מסדי נתונים אחוריים באמצעות PostgreSQL ו-
-          Express.js, ובפיתוח אתרים חזיתיים באמצעות CSS, HTML5, React.js ו-
+          אני מתמחה ביצירת וניהול מסדי נתונים אחוריים באמצעות AWS Lambda, DynamoDB, PostgreSQL ו-
+          Express.js, ובפיתוח אתרים חזיתיים באמצעות CSS, HTML5, Next.js, React.js ו-
           jQuery. אני גם מפתחת טסטים באמצעות Enzyme, Jest, Chai, Mocha ו-
           Supertest. בצד אני גם מנתחת נתונים ומציירת תרשימים ומפות מקיפים אך
           גם קלים לקריאה."
@@ -46,17 +46,17 @@ export default function AboutHE() {
       <div className="rotating_message">{messages[messageIndex]}</div>
       <div className="about_content_HE">
         <div className="about_image_HE">
-            <img src={Portrait} alt="a stylized portrait of myself" />
+          <img src={Portrait} alt="a stylized portrait of myself" />
         </div>
         <div className="about_text_HE">
           <p>דף שבו אני כותבת על עצמי? אוי ואבוי אני אעשה כמיטב יכולתי!</p>
           <p>
             שמי לירון דה קסטרו ואני מפתחת פול-סטאק שגרה בדרום קליפורניה. כרגע
-            אני מתמחה ביצירת וניהול מסדי נתונים אחוריים באמצעות PostgreSQL ו-
-            Express.js, ובפיתוח אתרים חזיתיים באמצעות CSS, HTML5, React.js ו-
-            jQuery. אני גם מפתחת טסטים באמצעות Enzyme, Jest, Chai, Mocha ו-
-            Supertest. בצד אני גם מנתחת נתונים ומציירת תרשימים ומפות מקיפים אך
-            גם קלים לקריאה.
+            אני מתמחה ביצירת וניהול מסדי נתונים אחוריים באמצעות AWS Lambda,
+            DynamoDB, Helmet.js, PostgreSQL ו- Express.js, ובפיתוח אתרים חזיתיים
+            באמצעות CSS, HTML5, Next.js, React.js ו- jQuery. אני גם מפתחת טסטים
+            באמצעות Enzyme, Jest, Chai, Mocha ו- Supertest. בצד אני גם מנתחת
+            נתונים ומציירת תרשימים ומפות מקיפים אך גם קלים לקריאה.
           </p>
           <p>
             מאז ומתמיד אפילו בכיתה ד׳ התעניינתי במחשבים, במפות, ובגרפים יפים

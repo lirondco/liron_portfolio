@@ -39,9 +39,12 @@ export default function HomePageEN() {
         <p>I'm Liron. That's /liːron/, not /laɪːron/. </p>
         <p>
           I'm a full stack web developer based in Southern California. <br /> I
-          currently work with JavaScript, React.JS, jQuery, HTML5, CSS,
-          PostgreSQL, and Express. <br /> If what you need is not what I listed,
-          still try asking me anyway. <br /> I also do maps and graphs.
+          currently work with JavaScript, Next.JS, React.JS, jQuery, HTML5, CSS,
+          PostgreSQL, Express.js, Helmet.js, AWS Lambda and DynamoDB. <br />I
+          also do unit and integration testing with Jest, Enzyme, Supertest,
+          Chai, and Mocha.
+          <br /> If what you need is not what I listed, still try asking me
+          anyway. <br /> I also do maps and graphs.
         </p>
         <p>Would you like me to be in your team? I love working in teams!</p>
         <p>

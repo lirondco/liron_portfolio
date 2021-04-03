@@ -36,32 +36,30 @@ export default function AboutEN() {
         <meta
           name="description"
           content="My name is Liron de Castro and I am a full stack web developer
-          currently based in Southern California. I currently specialize in back
-          end database creation and management using PostgreSQL and Express.js,
-          and in front end web development using CSS, HTML5, React.js, and
-          jQuery. I also develop tests for both the server and the client sides
-          using Enzyme, Jest, Chai, Mocha, and Supertest."
+          currently based in Southern California. I currently specialize in
+          back end database creation and management using PostgreSQL,
+          Express.js, Node.js, Helmet.js, AWS Lambda and DynamoDB, and in front end web development using CSS, HTML5,
+          React.js, Next.js, and jQuery. I also develop tests for both the server and
+          the client sides using Enzyme, Jest, Chai, Mocha, and Supertest."
         />
       </Helmet>
       <div className="rotating_message">{messages[messageIndex]}</div>
       <div className="about_content_EN">
         <div className="about_image_EN">
-            <img
-              src={Portrait}
-              alt="a stylized portrait of myself"
-            />
+          <img src={Portrait} alt="a stylized portrait of myself" />
         </div>
         <div className="about_text_EN">
           <p>A page where I talk about myself? I will try my best!</p>
           <p>
             My name is Liron de Castro and I am a full stack web developer
             currently based in Southern California. I currently specialize in
-            back end database creation and management using PostgreSQL and
-            Express.js, and in front end web development using CSS, HTML5,
-            React.js, and jQuery. I also develop tests for both the server and
-            the client sides using Enzyme, Jest, Chai, Mocha, and Supertest. On
-            the side I enjoy analyzing data and creating charts and maps that
-            are comprehensive but also easy to read.
+            back end database creation and management using PostgreSQL,
+            Express.js, Node.js, Helmet.js, AWS Lambda and DynamoDB, and in
+            front end web development using CSS, HTML5, React.js, Next.js, and
+            jQuery. I also develop tests for both the server and the client
+            sides using Enzyme, Jest, Chai, Mocha, and Supertest. On the side I
+            enjoy analyzing data and creating charts and maps that are
+            comprehensive but also easy to read.
           </p>
           <p>
             I have always been interested in computers and pretty maps and

@@ -36,8 +36,10 @@ export default function HomePageHE() {
         <p>
           אני מפתחת פול-סטאק מיפו שגרה בדרום קליפורניה.
           <br />
-          אני עובדת עם React.Js, jQuery, HTML5, CSS, PostgreSQL ו-Express.
+          אני עובדת עם React.Js, Next.JS, Helmet.js, AWS Lambda, DynamoDB, jQuery, HTML5, CSS, PostgreSQL ו-Express.js.
           <br />
+          אני גם עושה טסטים באמצעות Jest, Enzyme, Mocha, Chai, ו-Supertest.
+          <br />  
           אם מה שאתם רוצים לא נמצא ברשימה תנסו לשאול אותי עדיין.
           <br />
           אני גם עושה גרפים ומפות.

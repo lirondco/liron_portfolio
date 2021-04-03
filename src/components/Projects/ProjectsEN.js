@@ -64,6 +64,7 @@ export default function ProjectsEN() {
         "Jest",
         "Cypress",
         "Heroku",
+        "Linked Lists"
       ],
     },
     {

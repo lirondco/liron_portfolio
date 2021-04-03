@@ -62,6 +62,7 @@ export default function ProjectsHE() {
         "Enzyme",
         "Jest",
         "Cypress",
+        "רשימות מקושרות"
       ],
     },
     {

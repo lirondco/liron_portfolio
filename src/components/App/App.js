@@ -15,6 +15,8 @@ import FooterEN from "../Footer/FooterEN";
 import FooterHE from "../Footer/FooterHE";
 import Secret from "../Secret/Secret";
 import Sod from "../Secret/Sod";
+import ErrorEN from "../Error/ErrorEN";
+import ErrorHE from "../Error/ErrorHE";
 
 export default function App() {
   const [language, setLanguage] = useState(getUserLocale());
@@ -36,6 +38,7 @@ export default function App() {
         <Route path="/about" component={AboutEN} />
         <Route path="/contact" component={ContactEN} />
         <Route path="/shhhh" component={Secret} />
+        <Route component={ErrorEN} />
       </Switch>
     );
   };
@@ -48,6 +51,7 @@ export default function App() {
         <Route path="/about" component={AboutHE} />
         <Route path="/contact" component={ContactHE} />
         <Route path="/shhhh" component={Sod} />
+        <Route component={ErrorHE} />
       </Switch>
     );
   };

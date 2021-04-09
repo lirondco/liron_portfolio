@@ -43,7 +43,7 @@ export default function AboutEN() {
           the client sides using Enzyme, Jest, Chai, Mocha, and Supertest."
         />
       </Helmet>
-      <div className="rotating_message">{messages[messageIndex]}</div>
+      <div className="rotating_message" role="banner" aria-label="Who is Liron?">{messages[messageIndex]}</div>
       <div className="about_content_EN">
         <div className="about_image_EN">
           <img src={Portrait} alt="a stylized portrait of myself" />

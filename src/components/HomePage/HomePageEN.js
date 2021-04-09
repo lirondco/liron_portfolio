@@ -34,7 +34,7 @@ export default function HomePageEN() {
           still try asking me anyway. I also do maps and graphs."
         />
       </Helmet>
-      <div className="rotating_message">{messages[messageIndex]}</div>
+      <div className="rotating_message" role="banner" aria-label="hello">{messages[messageIndex]}</div>
       <div className="body_text_EN">
         <p>I'm Liron. That's /liːron/, not /laɪːron/. </p>
         <p>

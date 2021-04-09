@@ -42,7 +42,7 @@ export default function ContactHE() {
           לראות את הרפוסיטורים שלי בגיטהאב."
         />
       </Helmet>
-      <div className="rotating_message">{messages[messageIndex]}</div>
+      <div className="rotating_message" role="banner" aria-label="contact me">{messages[messageIndex]}</div>
       <div className="body_text_HE">
         <p>בואו נדבר! להלן פרטי ההתקשרות שלי.</p>
         <p>

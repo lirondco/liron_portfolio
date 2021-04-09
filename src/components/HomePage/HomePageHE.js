@@ -31,7 +31,7 @@ export default function HomePageHE() {
           content="אני מפתחת פול-סטאק מיפו שגרה בדרום קליפורניה. אני עובדת עם React.Js, jQuery, HTML5, CSS, PostgreSQL ו-Express. אם מה שאתם רוצים לא נמצא ברשימה תנסו לשאול אותי עדיין. אני גם אוהבת גרפים ומפות."
         />
       </Helmet>
-      <div className="rotating_message">{messages[messageIndex]}</div>
+      <div className="rotating_message" role="banner" aria-label="hello">{messages[messageIndex]}</div>
       <div className="body_text_HE">
         <p>
           אני מפתחת פול-סטאק מיפו שגרה בדרום קליפורניה.

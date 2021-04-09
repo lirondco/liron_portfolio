@@ -114,7 +114,7 @@ export default function ProjectsEN() {
           content="This page lists down some of Liron de Castro's more prominent projects so far."
         />
       </Helmet>
-      <div className="rotating_message">{messages[messageIndex]}</div>
+      <div className="rotating_message" role="banner" aria-label="projects">{messages[messageIndex]}</div>
       <ul className="projects_list_EN">
         {projects.map((project) => (
           <li key={project.name}>

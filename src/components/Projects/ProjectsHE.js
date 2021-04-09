@@ -111,7 +111,7 @@ export default function ProjectsHE() {
           content="בדף זה מפורטים כמה מהפרויקטים הבולטים של לירון דה קסטרו עד כה."
         />
       </Helmet>
-      <div className="rotating_message">{messages[messageIndex]}</div>
+      <div className="rotating_message" role="banner" aria-label="projects">{messages[messageIndex]}</div>
       <ul className="projects_list_HE">
         {projects.map((project) => (
           <li key={project.name}>

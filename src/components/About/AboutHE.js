@@ -43,7 +43,7 @@ export default function AboutHE() {
           גם קלים לקריאה."
         />
       </Helmet>
-      <div className="rotating_message">{messages[messageIndex]}</div>
+      <div className="rotating_message" role="banner" aria-label='Who is liron?'>{messages[messageIndex]}</div>
       <div className="about_content_HE">
         <div className="about_image_HE">
           <img src={Portrait} alt="a stylized portrait of myself" />

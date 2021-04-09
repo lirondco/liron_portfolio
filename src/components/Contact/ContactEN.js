@@ -42,7 +42,7 @@ export default function ContactEN() {
           on LinkedIn and Twitter."
         />
       </Helmet>
-      <div className="rotating_message">{messages[messageIndex]}</div>
+      <div className="rotating_message" role="banner" aria-label="Contact me">{messages[messageIndex]}</div>
       <div className="body_text_EN">
         <p>Let's talk! Below are my contact details.</p>
         <p>
